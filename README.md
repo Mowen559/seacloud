@@ -1,10 +1,14 @@
 # SeaCloud (海阔视界客户端) 🌊
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
+[![Disclaimer: Official](https://img.shields.io/badge/Disclaimer-Official-red.svg)](./DISCLAIMER.md)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Windows-green.svg)]()
 [![Author](https://img.shields.io/badge/Author-Mowen559-orange.svg)](https://github.com/Mowen559)
 
 > **SeaCloud** 是一款基于 Flutter 构建的高性能、现代化的多端媒体娱乐与规则引擎客户端（支持 Android 移动端与 Windows PC 桌面端），深度集成海阔视界小程序生态、工业级 MPV 音视频引擎与 60fps 轨道式弹幕渲染系统。
+
+> [!IMPORTANT]
+> ⚖️ **发版免责声明**：本软件为开源中立的通用媒体播放与规则执行沙箱，官方发行包中**坚决不内置、不提供、不分发任何受版权保护的音视频或图文内容**。使用前请务必仔细阅读完整版 [《官方发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)。
 
 ---
 
@@ -56,6 +60,16 @@
 | :--- | :--- | :--- |
 | **Android 移动端** | `seacloud-android-v1.0.0.apk` | 适用于 Android 7.0+ 手机、平板与电视端，已做符号混淆加密与性能优化 |
 | **Windows 桌面端** | `seacloud-windows-x64-v1.0.0.zip` | 适用于 Windows 10 / 11 64位操作系统，解压即用绿色免安装版本 |
+
+---
+
+## ⚖️ 官方发版免责声明 (Release Disclaimer)
+
+在下载、安装或使用本项目发布的任何安装包之前，请务必仔细阅读完整版 [《官方发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)：
+1. **纯中立执行环境**：官方发行版坚决不内置、不转码、不托管、不分发任何第三方受版权保护的音视频或图文内容；
+2. **规则与数据源自治**：用户自行导入或加载的第三方规则与网络媒体流，其版权与法律责任完全由使用者自行独立承担，开发者概不承担连带责任；
+3. **本地隐私安全**：播放记录与自定义规则 100% 留存在用户本地设备，零云端搜集；
+4. **侵权即时下架 (Notice-and-Takedown)**：严格恪守避风港原则，若涉嫌侵权请提交 [GitHub Issue](https://github.com/Mowen559/seacloud/issues)，我们将在 24 小时内核实并下架相关资产。
 
 ---
 

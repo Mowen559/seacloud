@@ -54,12 +54,14 @@
 
 ## 📦 Releases 安装包下载
 
-请前往本仓库右侧 **[Releases 页面](https://github.com/Mowen559/seacloud/releases)** 下载最新预编译安装包：
+本仓库已在 [`dist/`](./dist/) 目录下直接提供最新编译的预安装包与绿色免安装包，同时支持前往本仓库右侧 **[Releases 页面](https://github.com/Mowen559/seacloud/releases)** 下载最新发版：
 
-| 平台 | 文件名 | 说明 |
-| :--- | :--- | :--- |
-| **Android 移动端** | `seacloud-android-v1.0.0.apk` | 适用于 Android 7.0+ 手机、平板与电视端，已做符号混淆加密与性能优化 |
-| **Windows 桌面端** | `seacloud-windows-x64-v1.0.0.zip` | 适用于 Windows 10 / 11 64位操作系统，解压即用绿色免安装版本 |
+| 平台 | 文件名 | 仓库直链 | 说明 |
+| :--- | :--- | :--- | :--- |
+| **Android 移动端** | `seacloud-android-v1.0.0.apk` | [直接下载 APK](./dist/seacloud-android-v1.0.0.apk) | 适用于 Android 7.0+ 手机、平板与电视端，已集成最新 HTTP/1.1 协议自愈与 PoW 算力引擎 |
+| **Windows 桌面端** | `seacloud-windows-x64-v1.0.0.zip` | [直接下载 ZIP](./dist/seacloud-windows-x64-v1.0.0.zip) | 适用于 Windows 10 / 11 64位操作系统，解压即用绿色免安装版本（含完整 MPV 及 QuickJS 依赖库） |
+
+> 校验和请参阅 [`dist/SHA256SUMS.txt`](./dist/SHA256SUMS.txt)。
 
 ---
 

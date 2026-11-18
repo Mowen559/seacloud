@@ -1,11 +1,12 @@
-# SeaCloud (海阔视界客户端) 🌊
+# SeaCloud (海阔视界客户端 / 低代码平台测试器) 🌊
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Disclaimer: Official](https://img.shields.io/badge/Disclaimer-Official-red.svg)](./DISCLAIMER.md)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Windows-green.svg)]()
+[![Status: Beta](https://img.shields.io/badge/Status-Beta%20Tester-blueviolet.svg)]()
 [![Author](https://img.shields.io/badge/Author-Mowen559-orange.svg)](https://github.com/Mowen559)
 
-> **SeaCloud** 是一款基于 Flutter 构建的高性能、现代化的多端媒体娱乐与规则引擎客户端（支持 Android 移动端与 Windows PC 桌面端），深度集成海阔视界小程序生态、工业级 MPV 音视频引擎与 60fps 轨道式弹幕渲染系统。
+> **SeaCloud** 是一款基于 Flutter 构建的高性能、现代化的**测试版低代码平台测试器（多端动态规则与 UI 组件执行沙箱）**，原生支持 Android 移动端与 Windows PC 桌面端。深度集成海阔视界低代码规则生态、低代码动态组件渲染系统（如 21:9 轮播大屏、瀑布流、双列影视卡片、选集矩阵等）、工业级 MPV 音视频引擎、QuickJS 同构脚本沙箱与 60fps 轨道式弹幕渲染系统，专为低代码规则开发调试、动态组件可视化求值与流媒体链路实测而设计。
 
 > [!IMPORTANT]
 > ⚖️ **发版免责声明**：本软件为开源中立的通用媒体播放与规则执行沙箱，官方发行包中**坚决不内置、不提供、不分发任何受版权保护的音视频或图文内容**。使用前请务必仔细阅读完整版 [《官方发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)。
@@ -52,16 +53,16 @@
 
 ---
 
-## 📦 Releases 安装包下载
+## 📦 Releases 安装包下载 (GitHub Releases)
 
-本仓库已在 [`dist/`](./dist/) 目录下直接提供最新编译的预安装包与绿色免安装包，同时支持前往本仓库右侧 **[Releases 页面](https://github.com/Mowen559/seacloud/releases)** 下载最新发版：
+最新测试版安装包已发布至 **[GitHub Releases: v1.0.1 测试版](https://github.com/Mowen559/seacloud/releases/tag/v1.0.1)**，欢迎下载体验并反馈测试建议：
 
-| 平台 | 文件名 | 仓库直链 | 说明 |
-| :--- | :--- | :--- | :--- |
-| **Android 移动端** | `seacloud-android-v1.0.0.apk` | [直接下载 APK](./dist/seacloud-android-v1.0.0.apk) | 适用于 Android 7.0+ 手机、平板与电视端，已集成最新 HTTP/1.1 协议自愈与 PoW 算力引擎 |
-| **Windows 桌面端** | `seacloud-windows-x64-v1.0.0.zip` | [直接下载 ZIP](./dist/seacloud-windows-x64-v1.0.0.zip) | 适用于 Windows 10 / 11 64位操作系统，解压即用绿色免安装版本（含完整 MPV 及 QuickJS 依赖库） |
+| 平台 | 最新资产文件名 | GitHub Releases 直达 | 仓库内置归档 | 说明 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Android 移动端** | `seacloud-android-v1.0.1.apk` | [GitHub 下载 (v1.0.1)](https://github.com/Mowen559/seacloud/releases/download/v1.0.1/seacloud-android-v1.0.1.apk) | [dist 目录下载](./dist/seacloud-android-v1.0.0.apk) | 适用于 Android 7.0+ 手机/平板/车机，集成最新 HTTP/1.1 协议自愈与纯算力 PoW 引擎 |
+| **Windows 桌面端** | `seacloud-windows-x64-v1.0.1.zip` | [GitHub 下载 (v1.0.1)](https://github.com/Mowen559/seacloud/releases/download/v1.0.1/seacloud-windows-x64-v1.0.1.zip) | [dist 目录下载](./dist/seacloud-windows-x64-v1.0.0.zip) | 适用于 Win 10/11 64位，解压即用绿色免安装版本（含完整 MPV 及 QuickJS 依赖库） |
 
-> 校验和请参阅 [`dist/SHA256SUMS.txt`](./dist/SHA256SUMS.txt)。
+> 完整发版日志请参阅 [Release Notes v1.0.1](./release-notes-v1.0.1.md) 与 [校验和清单](./dist/SHA256SUMS.txt)。
 
 ---
 
